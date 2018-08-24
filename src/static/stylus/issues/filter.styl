@@ -1,0 +1,19 @@
+.filters
+
+  ul
+    display: flex
+    justify-content: space-around
+    flex-direction: column
+    list-style-type: none
+    padding-left: 15px
+    font-size: 12px
+    color: #607D8B
+    margin: 50px 20px 10px
+    @media screen and (min-width: 576px)
+      flex-direction: row
+      width: 400px
+    &:hover
+      cursor: pointer
+    li
+      &.active
+        color: #E91E63

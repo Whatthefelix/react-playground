@@ -1,0 +1,51 @@
+.issue-list-item
+  height: 200px
+  width: 300px
+  box-shadow: #CFD8DC 6px 6px 15px
+  margin: 20px 20px 40px
+  display: flex
+  flex-direction: column
+  position: relative
+  transition: all .2s ease-in-out
+  &:hover
+    transform: scale(1.1)
+  @media screen and (min-width: 576px)
+    height: 200px
+    width: 475px
+  &__body
+    font-size: 10px
+    height: 82px
+    overflow: hidden
+    color: #607D8B
+    padding: 10px
+    box-sizing: border-box
+    @media screen and (min-width: 576px)
+      font-size: 12px
+  &__title
+    font-size: 14px
+    border: solid 1px #3F51B5
+    background-color: #3F51B5
+    color: #FFF
+    min-height: 40px
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 20px 15px
+    position: relative
+    text-align: center
+    @media screen and (min-width: 576px)
+      font-size: 18px
+    svg
+      height: 15px
+      width: 15px
+      position: absolute
+      top: 5px
+      right: 5px
+      @media screen and (min-width: 576px)
+        top: 10px
+        right: 10px
+  &__labels
+    height: 35px
+    display: flex
+    align-items: center
+    justify-content: space-between

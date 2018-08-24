@@ -1,0 +1,1 @@
+.issue-nav{display:flex;flex-direction:column;justify-content:space-between;align-items:center;background-color:#e91e63;box-shadow:#cfd8dc 0 5px 15px;padding:20px 50px;}@media screen and (min-width:576px){.issue-nav{justify-content:row}}.issue-nav__title{font-size:20px;color:#fff;font-weight:600;}@media screen and (min-width:576px){.issue-nav__title{font-size:24px}}
